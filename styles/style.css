@@ -300,6 +300,69 @@
  color: black;
 }
 
+/* khan block starts */
+
+.khan{
+  background-color: #F2F2F2;
+  
+}
+.khan__container{
+  margin: auto;
+  width: 80%;
+}
+.khan__author{
+  line-height: 42px;
+  font-size: 30px;
+}
+
+.khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.khan__quote{
+  width: 790px;
+  margin-top: 50px;
+  line-height: 34px;
+  font-size: 24px;
+  
+}
+.khan__quote-author{
+  margin-top: 36px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.khan__quote-author{
+  margin-top: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+}
+
+.khan__book-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 68px;
+}
+
+.khan__book-pic{
+  margin: 0;
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+  padding-right: 48px;
+}
+
+.khan__buy-link{
+  text-decoration: none;
+  color: #2F80ED;
+  line-height: 42px;
+  font-size: 30px;
+}
+
 /* kaufman block start*/
 
 .kaufman {
@@ -371,6 +434,28 @@
   line-height: 1.2;
   font-weight: normal;
 }
+
+/* resources block starts */
+
+.resources{
+  margin: 0;
+  margin-top: 100px;
+}
+
+.resources__logo-zone{
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  margin: 80px auto 217px;
+  
+}
+.resources__logo{
+  width: 270px;
+  height: 38px;
+
+}
+
+/* footer block starts */
 
 .footer {
   display: flex;
