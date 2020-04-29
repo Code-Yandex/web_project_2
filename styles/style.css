@@ -133,10 +133,31 @@
   font-weight: bold;
 }
 
+/*end of description section; beginning of techniques section*/
+
 .techniques {
   margin: 100px;
   display: flex;
   flex-direction: column;
+}
+
+.section-title {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 20px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .cards {
@@ -185,6 +206,8 @@
   margin-bottom: 0;
 }
 
+/*end of techniques section; beginning of video section*/
+
 .video__iframes {
   display: flex;
   justify-content: center;
@@ -197,69 +220,22 @@
   border: none;
 }
 
+.video__iframe:hover {
+  opacity: 0.7;
+}
+
 .video__iframe:nth-of-type(1) {
   padding-right: 20px;
 }
+
+/*end of video section; beginning of oakley section*/
 
 .oakley {
   padding-top: 160px;
   background-color: #F2F2F2;
 }
 
-.digits {
- margin-top: 100px;
- margin-bottom: 100px;
- padding: 100px 0 100px 0;
-}
-
-.section-title {
-  text-align: center;
-  margin: auto;
-  width: 60%;
-  margin-bottom: 20px;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.section-subtitle {
-  text-align: center;
-  margin: auto;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table {
-  width: 1100px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-}
-
-.table__cell {
-  width: 250px;
-  list-style: none;
-  padding-top: 60px;
-}
-
-.table__heading {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bolder;
-  padding-bottom: 20px;
-}
-
-.table__text {
-  padding-bottom: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-}
-
-/*end of digits section; beginning of feynman section*/
+/*end of oakley section; beginning of feynman section*/
 
 .feynman {
   position: relative;
@@ -300,34 +276,74 @@
  color: black;
 }
 
-/* khan block starts */
+.feynman__link:hover {
+  opacity: 0.5;
+}
+
+/*end of feynman section; beginning of digits section*/
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px 0 100px 0;
+ }
+
+ .table {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+  list-style: none;
+  padding-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.table__text {
+  padding-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+/*end of digits section; beginning of khan section*/
 
 .khan{
   background-color: #F2F2F2;
   
 }
-.khan__container{
+.khan__container {
   margin: auto;
   width: 80%;
 }
-.khan__author{
+.khan__author {
   line-height: 42px;
   font-size: 30px;
 }
 
-.khan__title{
+.khan__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
-.khan__quote{
+.khan__quote {
   width: 790px;
   margin-top: 50px;
   line-height: 34px;
   font-size: 24px;
   
 }
-.khan__quote-author{
+.khan__quote-author {
   margin-top: 36px;
   line-height: 1.15;
   font-size: 24px;
@@ -335,19 +351,19 @@
 
 }
 
-.khan__quote-author{
+.khan__quote-author {
   margin-top: 10px;
   line-height: 1.15;
   font-size: 24px;
 }
 
-.khan__book-container{
+.khan__book-container {
   display: flex;
   flex-direction: row;
   margin-top: 68px;
 }
 
-.khan__book-pic{
+.khan__book-pic {
   margin: 0;
   width: 620px;
   height: 608px;
@@ -356,14 +372,18 @@
   padding-right: 48px;
 }
 
-.khan__buy-link{
+.khan__buy-link {
   text-decoration: none;
   color: #2F80ED;
   line-height: 42px;
   font-size: 30px;
 }
 
-/* kaufman block start*/
+.khan__buy-link:hover {
+  opacity: 0.5;
+}
+
+/*end of khan section; beginning of kaufman section*/
 
 .kaufman {
  overflow: hidden;
@@ -384,6 +404,7 @@
  z-index: 0;
  position: absolute;
  right: -210px;
+ transform: rotate(-15deg);
 }
 
 .section-title_theme_dark {
@@ -435,7 +456,7 @@
   font-weight: normal;
 }
 
-/* resources block starts */
+/*end of kaufman section; beginning of resources section*/
 
 .resources{
   margin: 0;
@@ -455,7 +476,7 @@
 
 }
 
-/* footer block starts */
+/*end of resources section; beginning of footer section*/
 
 .footer {
   display: flex;
@@ -515,6 +536,10 @@
    list-style-type: none;
    margin: 20px 0 16px 0;
 }
+
+.footer__column-links:hover {
+  opacity: 0.5;
+}
         
 .footer__column-link {
    text-decoration: none;
@@ -522,7 +547,11 @@
    font-weight: normal;
    font-size: 18px;
 }
-        
+
+.footer__column-link:hover {
+  opacity: 0.5;
+}
+
 .footer__column_content_social {
    flex-direction: column;
    font-weight: normal;
