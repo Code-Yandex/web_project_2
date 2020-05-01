@@ -3,6 +3,8 @@
     color: white;
     font-weight: normal;
     font-size: 18px;
+    list-style-type: none;
+    transition: opacity 1s ease;
  }
 
  .footer__column-link:hover {

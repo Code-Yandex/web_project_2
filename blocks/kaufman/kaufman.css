@@ -1,3 +1,6 @@
+@import url(./__cell/kaufman__cell.css);
+@import url(./__triangle/kaufman__triangle.css);
+
 .kaufman {
     overflow: hidden;
     background-color: #1f1f1f;
